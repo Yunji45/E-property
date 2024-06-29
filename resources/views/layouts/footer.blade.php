@@ -1,9 +1,9 @@
 <footer class="footer has-background-primary">
     <div class="content has-text-centered has-text-white">
         <p class="has-text-white has-text-centered">
-        <strong class="has-text-white">E-Commerce Properti</strong> by <a href="" class="has-text-white">Firyanul Rizky</a>
+        <strong class="has-text-white">E-Commerce Properti</strong> by <a href="" class="has-text-white">JSTech</a>
         </p>
-        <small>Dibuat dengan framework laravel 9</small>
+        <small>Dibuat dengan framework laravel</small>
     </div>
     <div class="has-text-centered has-text-white">
         <span class="icon">

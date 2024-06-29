@@ -23,7 +23,7 @@ class PropertyController extends Controller
             'city' => 'required',
             'postalcode' => 'required|integer',
             'province' => 'required',
-            'description' => 'required|min:100',
+            // 'description' => 'required|min:100',
             'contactno' => 'required|numeric',
             'contactemail' => 'email|required',
             'filename' => 'required',
@@ -68,7 +68,8 @@ class PropertyController extends Controller
         $property->city = request('city');
         $property->postalCode = request('postalcode');
         $property->province = request('province');
-        $property->description = request('description');
+        // $property->description = request('description');
+        $property->description = 'test';
         $property->contactNo = request('contactno');
         $property->contatctEmail = request('contactemail');
         $property->images =json_encode($data);
